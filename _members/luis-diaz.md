@@ -15,4 +15,4 @@ With over 10 years of experience in the telecommunications industry, I am a pass
 
 My core competencies include Generative AI, Graph Neural Networks (GNN), Convolutional Neural Networks (CNN), and Neural Networks for tabular data classification. These techniques enable me to leverage diverse data sources and craft dynamic solutions that enhance and optimize RAN performance. As a result, I contribute significantly to the development of our state-of-the-art RAN optimization products. Additionally, I am expanding my expertise in applying AI to Cybersecurity, a field that offers exciting challenges and opportunities.
 
-I am also known for my collaborative approach and knowledge-sharing with my team and other stakeholders. I constantly seek ways to innovate and improve processes, and I align my goals with the company's vision and mission. 
+I am also known for my collaborative approach and knowledge-sharing with my team and other stakeholders. I constantly seek ways to innovate and improve processes, and I align my goals with the company's vision and mission.
