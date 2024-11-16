@@ -10,6 +10,7 @@ from pathlib import Path
 from datetime import datetime
 from rich import print
 from diskcache import Cache
+from security import safe_command
 
 
 # cache for time-consuming network requests
@@ -175,7 +176,7 @@ def cite_with_manubot(_id):
     # run Manubot
     try:
         commands = ["manubot", "cite", _id, "--log-level=WARNING"]
-        output = subprocess.Popen(commands, stdout=subprocess.PIPE).communicate()
+        output = safe_command.run(subprocess.Popen, commands, stdout=subprocess.PIPE).communicate()
     except Exception as e:
         log(e, 3)
         raise Exception("Manubot could not generate citation")
